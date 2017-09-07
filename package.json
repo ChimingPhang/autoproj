@@ -1,7 +1,7 @@
 {
   "name": "autoproj",
   "version": "1.0.3",
-  "description": "add readme",
+  "description": "Create your project folder constructor quickly",
   "main": "index.js",
   "bin": {
     "autoproj": "./index.js"
