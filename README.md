@@ -1,6 +1,6 @@
-## create your project folder construtor quickly
+## Create your project folder constructor quickly
 
-### install as global command
+### install autoproj as global command
 ```
   npm i autoproj -g
 ```
