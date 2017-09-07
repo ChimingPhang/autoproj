@@ -1,4 +1,4 @@
-## Create your project folder constructor quickly
+## Create your project folders structure quickly
 
 ### install autoproj as global command
 ```
