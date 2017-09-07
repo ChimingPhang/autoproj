@@ -7,5 +7,5 @@
 
 ### set default create folders
 ```
-  autoproj -s folder1 folder2 folder3
+  autoproj -s folderPath1 folderPath2 folderPath3
 ```
