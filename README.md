@@ -5,7 +5,7 @@
   npm i autoproj -g
 ```
 
-``` bash
+```
 Usage: autoproj [options] <folder>
 
 Options:
@@ -20,25 +20,25 @@ Options:
 
 ### Create project with default collection
 
-``` base
+```
 autoproj ProjectName
 ```
 
 ### Set default collection
 
-``` base
+```
 autoproj -s FolderPath1 FolderPath2 FolderPath3
 ```
 
 ### Set a new collection
 
-``` base
+```
 autoproj -c CollectionName:FolderPath1 FolderPath2 FolderPath3
 ```
 
 ### Create project with a choosed collection
 
-``` base
+```
 autoproj -n CollectionName:ProjectName
 ```
 
