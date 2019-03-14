@@ -1,16 +1,46 @@
 ## Create your project folders structure quickly
 
-### install autoproj as global command
+### Install autoproj as global command
 ```
   npm i autoproj -g
 ```
 
-### create new projects
-```
-  autoproj projectName
+``` bash
+Usage: autoproj [options] <folder>
+
+Options:
+  -V, --version                                 output the version number
+  -s, --setting <folders>                       setting default folders
+  -c, --collection <collectionName>:<folders>   setting your collection folders
+  -n, --new <collectionName>:<projectName>      create the projectName accodring to your collection
+  -l, --list                                    list all collections
+  -h, --help                                    output usage information
+
 ```
 
-### set default create folders
+### Create project with default collection
+
+``` base
+autoproj ProjectName
 ```
-  autoproj -s folderPath1 folderPath2 folderPath3
+
+### Set default collection
+
+``` base
+autoproj -s FolderPath1 FolderPath2 FolderPath3
 ```
+
+### Set a new collection
+
+``` base
+autoproj -c CollectionName:FolderPath1 FolderPath2 FolderPath3
+```
+
+### Create project with a choosed collection
+
+``` base
+autoproj -n CollectionName:ProjectName
+```
+
+
+#### If you like the command, plz make a star
