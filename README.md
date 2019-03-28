@@ -13,7 +13,7 @@ Usage: autoproj [options] <folder>
 Options:
   -V, --version                                 output the version number
   -s, --setting <folders>                       setting default folders
-  -c, --collection <collectionName>:<folders>   setting your collection folders
+  -c, --collection <collectionName>             setting your collection folders
   -n, --new <collectionName>:<projectName>      create the projectName accodring to your collection
   -l, --list                                    list all collections
   -h, --help                                    output usage information
