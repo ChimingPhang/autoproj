@@ -11,10 +11,12 @@ let command = argvs[0]
 
 program
   .version(package.version)
-  .arguments('<folder>')
+  .usage('[options] <folders>|<collection>')
+  .name('autoproj')
+  .description('Create your project folders structure quickly')
   .option('-s, --setting <folders>', 'setting default folders')
   .option('-c, --collection <collectionName>:<folders>', 'setting your collection folders')
-  .option('-n, --new <collectionName>:<folders>', 'create the folders accodring to your collection')
+  .option('-n, --new <collectionName>', 'create the folders accodring to your collection')
   .option('-l, --list', 'list all collections')
   .parse(process.argv);
 
@@ -31,7 +33,6 @@ function setDefaultFolders() {
 
 function setCollectionFolders() {
   argvs.shift()
-  console.log(argvs)
   var collectionName = argvs[0].split(':')[0]
   var firstFolder = argvs[0].split(':')[1]
   argvs.shift()
@@ -106,6 +107,6 @@ switch (command) {
     if (argvs.length === 1) {
       createFolders()
     } else {
-      console.log('wrong params')
+      program.help()
     }
 }

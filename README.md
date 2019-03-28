@@ -1,3 +1,5 @@
+# If you like the command, plz make a star or submit an issue
+
 ## Create your project folders structure quickly
 
 ### Install autoproj as global command
@@ -43,4 +45,3 @@ autoproj -n CollectionName:ProjectName
 ```
 
 
-#### If you like the command, plz make a star
